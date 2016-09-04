@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlappyBird</title>
+</head>
+<body>
+<canvas id="cvs" width="800" height="600" style="border: 1px solid black;"></canvas>
+
+<!--引入模块化文件-->
+<script src="./assets/lib/seajs/sea.js"></script>
+<script>
+    seajs.config({
+        base:'./assets/'
+    });
+    // 模块的启动
+    seajs.use('js/load_imgs');
+
+</script>
+
+<!--<script src="./assets/js/load_imgs.js"></script>
+<script src="./assets/js/bird.js"></script>
+<script src="./assets/js/sky.js"></script>
+<script src="./assets/js/land.js"></script>
+<script src="./assets/js/pipe.js"></script>-->
+
+</body>
+</html>
